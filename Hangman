@@ -16,7 +16,7 @@ print "Start guessing..."
 time.sleep(0.5)
 
 #here we set the secret
-word = random.choice(['purple', 'potato', 'secret', 'aunt', 'chicken', 'sauce', 'panda', 'python', 'orange', 'ligma', 'fortnite', 'money', 'supra', 'church', 'poop', 'dead', 'basketball', 'dog', 'principal', 'four', 'loss', 'chungus', 'music'])
+word = random.choice(['memory', 'sailing', 'laboratory', 'lawnmower', 'india', 'lacking', 'burrito', 'number', 'qqqqqqqq', 'pickle', 'practice', 'race', 'rich', 'short,' 'erase', 'strong', 'surface', 'park', 'miata', 'honda', 'civic', 'disease', 'erdem', 'window', 'salad', 'purple', 'potato', 'secret', 'aunt', 'chicken', 'sauce', 'panda', 'python', 'orange', 'ligma', 'fortnite', 'money', 'supra', 'church', 'poop', 'dead', 'basketball', 'dog', 'principal', 'four', 'loss', 'chungus', 'music'])
 
 #creates an variable with an empty value
 guesses = ''
@@ -82,5 +82,5 @@ while turns > 0:
         if turns == 0:           
     
         # print "You Lose"
-            print "You Lose" 
-#https://www.pythonforbeginners.com/code-snippets-source-code/game-hangman
+            print "You Lose"
+            print "Your word was: " + word  
